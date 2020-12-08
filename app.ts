@@ -1,6 +1,6 @@
 
 
-function saludar( nombre ) {
+function saludar( nombre:string ) {
     console.table( 'Hola ' + nombre ); // Hola Logan
 }
 
@@ -10,5 +10,5 @@ const wolverine = {
 };
 
 
-saludar(  );
+saludar( wolverine.nombre );
 

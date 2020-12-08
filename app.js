@@ -4,4 +4,4 @@ function saludar(nombre) {
 var wolverine = {
     nombre: 'Logan'
 };
-saludar();
+saludar(wolverine.nombre);
